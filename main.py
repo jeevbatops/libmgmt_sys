@@ -9,7 +9,7 @@ class LMS():
     """
 
     def __init__(self, list_of_books, library_name):
-        self.list_of_books = 'list_of_books.txt'
+        self.list_of_books = 'books.txt'
         self.library_name = 'library_name'
         self.books_dict = {}
         Id = 101
@@ -84,7 +84,7 @@ class LMS():
 
 
 try:
-    myLMS = LMS("list_of_books.txt", "My Library")
+    myLMS = LMS("books.txt", "My Library")
     press_key_list = {'d':'Display Books',
                      'i': "Issue A Book",
                      'a': "Add A Book",
